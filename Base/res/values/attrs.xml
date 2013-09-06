@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 点状虚线配置属性 -->
+    <declare-styleable name="ImageViewWithContour">
+    	<attr name="ContourType"><!-- 轮廓类型，目前支持:circle/rectf -->
+    		<flag name="circle" value="0x1"/>
+    		<flag name="rectf" value="0x2"/>    
+    	</attr>
+    	<attr name="ContourColor" format="color"/><!-- 轮廓颜色 -->
+    	<attr name="ContourWidth" format="dimension"/><!-- 轮廓宽度 -->
+    	<attr name="ContourHeight" format="dimension"/><!-- 轮廓高度 -->
+    	<attr name="ContourRadius" format="dimension"/><!-- 轮廓半径，circle通过宽度算，不需要此参数，rectf指角半径 -->
+    </declare-styleable>
+
+    <!-- 下带文字说明的ImageView -->
+	<declare-styleable name="ImageViewWithUnderText">
+	    <attr name="TextFontSize" format="dimension"/>
+	    <attr name="Text" format="string"></attr>
+	    <attr name="TextColor" format="color"></attr>
+	    <attr name="ImageSrc" format="integer"></attr>
+	    <attr name="ImageWidth" format="dimension"/>
+	    <attr name="ImageHeight" format="dimension"/>
+	</declare-styleable>    
+
+	
+	<!-- Base模组 -->
+    <declare-styleable name="PullToRefresh">
+        <attr name="adapterViewBackground" format="reference|color" />
+        <attr name="headerBackground" format="reference|color" />
+        <attr name="headerTextColor" format="color" />
+        <attr name="mode">
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+            <flag name="both" value="0x3" />
+        </attr>
+    </declare-styleable>
+	
+</resources>

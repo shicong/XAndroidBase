@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base -->
+	<item type="id" name="ID_BASE_GRIDVIEW" />
+    <item type="id" name="ID_BASE_WEBVIEW" />
+    <item type="id" name="ID_AUDIO_MONITOR_TIME" /><!-- 录音时间监控 -->
+    <item type="id" name="ID_AUDIO_MONITOR_VOLUME" /><!-- 录音音量监控 -->
+</resources>

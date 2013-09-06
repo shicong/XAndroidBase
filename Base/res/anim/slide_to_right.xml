@@ -1,0 +1,8 @@
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:fromXDelta="0" 
+    android:toXDelta="85%p"
+    android:fillEnabled="true"
+    android:fillAfter="true"
+    android:duration="@android:integer/config_mediumAnimTime"/>

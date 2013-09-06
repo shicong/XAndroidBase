@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Base</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- 公用 -->
+    <string name="Str_Base_OK">确定</string>
+    <string name="Str_Base_Cancel">取消</string>
+    <string name="Str_Base_Del">删除</string>
+    <string name="Str_Base_Back">返回</string>
+    <string name="Str_Base_LogIn">登陆</string>
+    <string name="Str_Base_Load">加载中...</string>
+    <string name="Str_Base_Edit">编辑</string>
+    <string name="Str_Base_Done">完成</string>
+    <string name="Str_Base_More">更多...</string>
+    <string name="Str_Base_I_See">好，知道了</string>
+    
+    <string name="Str_Base_Not_Support">暂时还没有办法提供此功能哦~~~</string>
+    <string name="Str_Base_No_network_conn">没有网络连接</string>
+    
+    <string name="Str_Base_Pull_To_Refresh_Pull">下拉刷新</string>
+    <string name="Str_Base_Pull_To_Refresh_Release">松开后刷新</string>
+    <string name="Str_Base_Pull_To_Refresh_Refreshing">刷新中...</string>
+    <string name="Str_Base_Pull_To_Refresh_Tap">点击刷新</string>
+    
+</resources>

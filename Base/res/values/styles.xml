@@ -1,0 +1,81 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- MP = match_parent, WC = wrap_content, W = width, H = height-->
+    <style name="Style_Lo_W_MP_H_MP">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="Style_Lo_W_MP_H_WC">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Style_Lo_W_WC_H_MP">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="Style_Lo_W_WC_H_WC">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    
+    <!-- 自定义背景Dialog -->
+    <style name="Style_Comm_Dialog_PopMenu" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item> 
+    </style>
+    
+    <!-- 全屏Dialog -->
+    <style name="dialog_fullscreen">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent
+        </item>
+    </style>
+    
+    <!-- 文字属性-白 -->
+    <style name="Style_Comm_Text_W_WC_H_WC_White">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/color_White</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <!-- 文字属性-黑 -->
+    <style name="Style_Comm_Text_W_WC_H_WC_Black">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/color_Black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <!-- 文字属性-灰 -->
+    <style name="Style_Comm_Text_W_WC_H_WC_Gray">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/color_Gray</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+</resources>
